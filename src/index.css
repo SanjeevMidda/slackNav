@@ -2,6 +2,7 @@
   margin: 0px;
   font-family: Helvetica, sans-serif;
   font-weight: 300;
+  box-sizing: border-box;
 }
 
 .App {
@@ -9,4 +10,30 @@
   justify-content: center;
   align-items: center;
   height: 100dvh;
+}
+
+.queryContainer {
+  border: 1px solid rgb(213, 213, 213);
+  border-radius: 30px;
+  width: 70dvw;
+  height: 20dvh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.queryStatus {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: blue;
+}
+
+input {
+  width: 50dvw;
+  height: 10dvh;
+  border-radius: 60px;
+  border: 1px solid rgb(213, 213, 213);
+  padding: 20px;
+  font-size: 16px;
 }
